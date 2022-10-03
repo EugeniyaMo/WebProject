@@ -1,0 +1,86 @@
+body {
+    background-color: #F5F5F5;
+    font-family: "SourceSansPro";
+}
+.sub-header {
+    background-color: #F2DED0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#head {
+    margin: 0 50% 0 50%;
+}
+nav {
+    background-color: #6DA1A6;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+.beautyful-square {
+    padding: 2vh;
+    border-style: solid;
+    border-width: 1px;
+}
+#code {
+    color: #a7b6a7;
+    background-color: #2b2b2b;
+}
+.orange {
+    color: #9e482a;
+}
+.yellow {
+    color: #e8bf6a;
+}
+.green {
+    color: #7dbb60;
+}
+footer {
+    background-color: #6DA1A6;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 1vh;
+}
+.filters {
+    width: 25%;
+    background-color: #E5F0F1;
+}
+.product-cards {
+    width: 50%;
+}
+.product-info {
+    width: 25%;
+    padding-right: 0;
+    background-color: #E5F0F1;
+}
+p {
+    font-family: "SourceSansPro";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.products {
+    display: flex;
+}
+
+.product-card {
+    text-align: center;
+}
+
+.shadow {
+    filter: drop-shadow(0 0 5px #581818);
+}
+
+.contacts {
+    margin-left: 10%;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
