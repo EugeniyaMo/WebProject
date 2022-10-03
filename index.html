@@ -2,45 +2,24 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Интернет-магазин</title>
+    <title>ПОЛОЧКА</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
 <header>
     <div class="sub-header">
+        <div id="head">
         <div class="shop-name">
-            <h1>Название магазина</h1>
+            <h1>ПОЛОЧКА</h1>
         </div>
-        <div class="logo">
-            <img src="" alt="Логотип">
-        </div>
-        <div class="ascii-art">
-            <pre>
- __      __       .__                                  __                     __                      ._.
-/  \    /  \ ____ |  |   ____  ____   _____   ____   _/  |_  ____     _______/  |_  ___________   ____| |
-\   \/\/   // __ \|  | _/ ___\/  _ \ /     \_/ __ \  \   __\/  _ \   /  ___/\   __\/  _ \_  __ \_/ __ \ |
- \        /\  ___/|  |_\  \__(  <_> )  Y Y  \  ___/   |  | (  <_> )  \___ \  |  | (  <_> )  | \/\  ___/\|
-  \__/\  /  \___  >____/\___  >____/|__|_|  /\___  >  |__|  \____/  /____  > |__|  \____/|__|    \___  >_
-       \/       \/          \/            \/     \/                      \/                          \/\/
-            </pre>
         </div>
     </div>
 
-    <div id="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img alt="Первый слайд">
-            </div>
-            <div class="carousel-item">
-                <img alt="Второй слайд">
-            </div>
-            <div class="carousel-item">
-                <img alt="Третий слайд">
-            </div>
-        </div>
+    <div id="shelf">
+        <img src="images/books.png" width="100%" alt="Здесь должна быть ваша книжная полка" class="shadow">
     </div>
 
     <nav>
-        <a href="#">Navbar</a>
         <div>
             <ul>
                 <li>
@@ -54,41 +33,46 @@
     </nav>
 </header>
 <main>
+    <div class="beautyful-square">
     <q><i>Великое</i> начинается с <b>малого</b></q>
     <p>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></p>
     <div class="code">
-        <pre><code>
-            class HelloWorld {
-                public static void main(String[] args) {
-                    System.out.println("Hello, World!");
+        <pre><div id="code"><code>
+            <span class="orange">class</span> <span class="yellow">HelloWorld</span> {
+                <span class="orange">public static void</span> <span class="yellow">main</span>(String[] args) {
+                    System.out.println(<span class="green">"Hello, World!"</span>);
                 }
             }
-        </code></pre>
-    </div>
-    <section class="filters">
-        <ul>
-            <li>
-                <p>По цене</p>
-            </li>
-            <li>
-                <p>По количеству</p>
-            </li>
-        </ul>
-    </section>
-    <div class="product-card">
-        <p>Название товара</p>
-        <img src="" alt="Картинка товара">
-    </div>
-    <div class="product-card">
-        <p>Название товара</p>
-        <img src="" alt="Картинка товара">
-    </div>
-    <div class="product-card">
-        <p>Название товара</p>
-        <img src="" alt="Картинка товара">
-    </div>
-    <div class="product-info">
-        <p>Информация о выбранном товаре</p>
+        </code></div></pre>
+    </div></div>
+    <div class="products">
+        <section class="filters">
+            <ul>
+                <li>
+                    <a href="#">По цене</a>
+                </li>
+                <li>
+                    <a href="#">По количеству</a>
+                </li>
+            </ul>
+        </section>
+        <div class="product-cards">
+            <div class="product-card">
+                <p>Название товара</p>
+                <img src="" alt="Картинка товара">
+            </div>
+            <div class="product-card">
+                <p>Название товара</p>
+                <img src="" alt="Картинка товара">
+            </div>
+            <div class="product-card">
+                <p>Название товара</p>
+                <img src="" alt="Картинка товара">
+            </div>
+        </div>
+        <div class="product-info">
+            <p>Информация о выбранном товаре</p>
+        </div>
     </div>
 </main>
 <footer>
