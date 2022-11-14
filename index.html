@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>ПОЛОЧКА</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/download_counter.js"></script>
+    <script src="JS/active_menu.js" type="module"></script>
 </head>
 <body>
 <header>
@@ -23,10 +25,10 @@
         <div>
             <ul>
                 <li>
-                    <a href="#">Главная страница</a>
+                    <a href="index.html" class="menu">Главная страница</a>
                 </li>
                 <li>
-                    <a href="#">Личный кабинет</a>
+                    <a href="profile.html" class="menu">Личный кабинет</a>
                 </li>
             </ul>
         </div>
@@ -92,6 +94,9 @@
         </div>
         <div class="phone-numbers">
             Номер телефона
+        </div>
+        <div>
+            <p>Скорость загрузки <span id="load-speed"></span> секунд.</p>
         </div>
     </section>
     <div class="advertisement">
