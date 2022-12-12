@@ -2,10 +2,11 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Личный кабинет</title>
+  <title>ПОЛОЧКА</title>
   <link rel="stylesheet" href="CSS/style.css">
   <script src="JS/download_counter.js"></script>
   <script src="JS/active_menu.js" type="module"></script>
+  <script src="JS/forum.js"></script>
 </head>
 <body>
 <header>
@@ -40,13 +41,16 @@
     </div>
   </nav>
 </header>
+
 <main>
-  <p class="personal-info">Персональная информация</p>
-  <p>Имя: Иван</p>
-  <p>Фамилия: Иванович</p>
-  <p>Отчество: Иванов</p>
-  <p>Номер телефона: +79999999999</p>
+  <div class="container" style="padding-top: 10px">
+    <h1 class="title">Форум</h1>
+    <img src="images/Hourglass.gif" id="preloader-img">
+    <div class="posts-container" id="posts-container-id"></div>
+  </div>
+
 </main>
+
 <footer>
   <section class="contacts">
     <div class="address">

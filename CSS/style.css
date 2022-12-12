@@ -158,3 +158,17 @@ p {
         display: none;
     }
 }
+
+.post {
+    padding-bottom: 15px;
+}
+
+.post-title {
+    color: midnightblue;
+    font-weight: bold;
+
+}
+
+.post-body {
+    color: #6DA1A6;
+}
